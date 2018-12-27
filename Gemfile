@@ -6,7 +6,7 @@ when /darwin/
 end
 
 gem 'puppet', '< 5.0.0'
-gem 'puppetlabs_spec_helper'
+gem 'puppetlabs_spec_helper', '>= 2.12.0'
 gem 'semantic_puppet'
 gem 'ra10ke'
 gem 'rubocop'
