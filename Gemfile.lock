@@ -346,7 +346,7 @@ GEM
       r10k
       rake
       solve
-    rainbow (2.2.2)
+    rainbow (3.0.0)
       rake
     rake (12.1.0)
     rb-readline (0.5.5)
