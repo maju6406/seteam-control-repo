@@ -32,10 +32,7 @@ end
 
 
 group :system_tests do
-  gem 'beaker', '>= 3.16.0'
-  gem 'beaker-rspec'
   gem 'serverspec'
-  gem 'beaker-puppet_install_helper'
   gem 'master_manipulator'
 end
 
