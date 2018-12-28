@@ -33,6 +33,5 @@ end
 
 group :system_tests do
   gem 'serverspec'
-  gem 'master_manipulator'
 end
 
