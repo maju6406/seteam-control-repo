@@ -16,7 +16,6 @@ mod 'puppetlabs-concat', '4.2.1'
 mod 'puppetlabs-device_manager', '2.7.0'
 mod 'puppetlabs-dism', '1.2.0'
 mod 'puppetlabs-docker', '3.0.0'
-mod 'puppetlabs-dsc', '1.7.0'
 mod 'puppetlabs-exec', '0.3.0'
 mod 'puppetlabs-facter_task', '0.1.3'
 mod 'puppetlabs-firewall', '1.14.0'
@@ -100,6 +99,10 @@ mod 'yelp-uchiwa', '2.0.0'
 mod 'abuxton-pdk', '0.2.0'
 mod 'jdowning-rbenv', '2.4.0'
 mod 'tkishel-system_gem', '1.1.1'
+
+mod 'puppetlabs-dsc',
+  :git => 'https://github.com/puppetlabs/puppetlabs-dsc.git',
+  :ref => 'master'
 
 mod 'tse-tse_facts',
   :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git'
