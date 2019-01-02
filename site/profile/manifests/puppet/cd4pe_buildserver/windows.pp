@@ -43,13 +43,13 @@ class profile::puppet::cd4pe_buildserver::windows
     mergemode => clobber,
   }
 
-  windows_env {'PATH':
-    ensure    => present,
-    variable  => 'PATH',
-    value     => ['C:\Program Files\Puppet Labs\DevelopmentKit\private\ruby\2.4.4\bin', 'C:\Program Files\Amazon\cfn-bootstrap', 'C:\Program Files\Git\bin'],
-    separator => ';',
-    mergemode => prepend,
-  }
+#  windows_env {'PATH':
+#    ensure    => present,
+#    variable  => 'PATH',
+#    value     => ['C:\Program Files\Puppet Labs\DevelopmentKit\private\ruby\2.4.4\bin', 'C:\Program Files\Amazon\cfn-bootstrap', 'C:\Program Files\Git\bin'],
+#    separator => ';',
+#    mergemode => prepend,
+#  }
 
   $dev_packages = ['puppet','rake','r10k','ra10ke','puppet-lint','rest-client', 'puppetlabs_spec_helper']
   ensure_packages($dev_packages,{ensure => present,provider => system_gem,require  => Package['Puppet Development Kit']})
