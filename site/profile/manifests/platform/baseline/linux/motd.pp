@@ -2,7 +2,7 @@ class profile::platform::baseline::linux::motd {
   $motd = @("MOTD"/L)
     ===========================================================
 
-          Welcome to ${::hostname}
+          Hello! Welcome to ${::hostname}
 
     Access  to  and  use of this server is  restricted to those
     activities expressly permitted by the system administration
